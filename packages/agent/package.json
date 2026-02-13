@@ -1,0 +1,20 @@
+{
+  "name": "@x402/agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "x402-agent": "./src/cli.ts"
+  },
+  "scripts": {
+    "agent": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@stacks/transactions": "^7.0.0",
+    "dotenv": "^16.4.5",
+    "x402-stacks": "^2.0.1"
+  }
+}

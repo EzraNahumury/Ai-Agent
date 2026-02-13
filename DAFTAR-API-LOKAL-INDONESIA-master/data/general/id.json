@@ -1,0 +1,27 @@
+{
+  "categoryName": "Umum",
+  "apis": [
+    {
+      "apiName": "Dayoff API",
+      "status": true,
+      "documentationUrl": "https://dayoffapi.vercel.app",
+      "developer": {
+        "name": "Gerinsp",
+        "profileUrl": null
+      },
+      "description": "Api untuk mendapatkan data hari libur nasional dan cuti bersama di Indonesia.",
+      "authentication": false
+    },
+    {
+      "apiName": "ResitaApi",
+      "status": true,
+      "documentationUrl": "https://api.ferdev.my.id",
+      "developer": {
+        "name": "FeriPratama",
+        "profileUrl": "https://cdn.ferdev.my.id/assets/img/verbotx.jpg"
+      },
+      "description": "Api gratis yang berisi banyak sekali fitur seperti downloader, search, tools,dll",
+      "authentication": true
+    }
+  ]
+}
